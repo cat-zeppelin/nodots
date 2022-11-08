@@ -10,7 +10,7 @@ There is no actual added value in this package or reasons for its existence exce
 - dubious subjective aesthetic feeling while writing code in R
 - exteding `is_infinite` and `is_finite` functions to data frames
 
-Although it is almost impossible to get rid of all names with dots in R the mission of this package is to minimize seeing dotted names in your R code.
+Although it is almost impossible to get rid of all the names with dots in R the mission of this package is to minimize seeing dotted names in your R code.
 
 ## Installation
 
