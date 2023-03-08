@@ -39,7 +39,9 @@ is_double <- function(x) {
 }
 
 #' @export
-is_element <- function(e, set) {
+is_element <- function(e, ...) {
+    set <- as_list(...)
+    set <- do.call(c, set)
     is.element(e, set)
 }
 
